@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+header{
+    background: white;
+
+
+       width: 100%;
+       padding: 0 50px;
+      
+       display: flex;
+   justify-content: space-between;
+   height: 112px;
+   
+   }
+.logo img{
+    padding-top: 45px;
+}
+   header nav{
+       margin-left:120px ;
+   }
+   header nav ul{
+   
+   display: flex;
+   column-gap: 0px;
+   
+   }
+   
+    header nav ul li{
+   
+       display: inline-block;
+       width: 129px;
+   list-style: none;
+   text-align: center;
+   }
+
+   header nav ul li a{
+      
+       display: inline-block;
+       padding-top: 48px;
+       width: 100%;
+       height: 21px;
+       text-decoration: none;
+       color: black;
+   }
+
+header .btn{
+    margin-top: 32px;
+}
+
+
+
+.btn{
+    color: white;
+height: 48px;
+    background: #426b1f;
+    border-radius: 8px;
+padding: 14px 23px;
+border: none;
+
+}
+
+main{
+    padding: 0 50px;
+    text-align: center;
+margin: 0 auto;
+    width: 100%;
+    max-width: 1440px;
+    height: 1000px;
+}
+.wall h1{
+    margin: 0 auto;
+    width: 1000px;
+    text-align: center;
+    font-style: italic;
+    font-family: var(--third-family);
+font-weight: 400;
+font-size: 64px;
+line-height: 120%;
+letter-spacing: -0.02em;
+text-align: center;
+color: #000;
+margin-bottom: 50px;
+    text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+.wall a{
+    padding: 19px 32px;
+ 
+    text-decoration: none;
+}
+.logo1{
+    margin-top: 150px;
+    display: flex;
+    column-gap: 32px;
+    display: grid;
+grid-template-columns: repeat(12, 1fr);
+}
+.logo3{
+    margin: 0 auto;
+    margin-top: 60px;
+}
+.logo2{
+    width: 504px;
+    height: 693px;
+}
+.logo3 img{
+    width: 629px;
+    height: 480px;
+}
+.logo3 p{
+    font-family: var(--font-family);
+font-weight: 500;
+font-size: 14px;
+line-height: 160%;
+letter-spacing: -0.01em;
+color: #000;
+font-weight: 300;
+}
+footer{
+
+    padding-top: 150px;
+    display: flex;
+    gap: 20px;
+    height: 200px;
+    width: 100%;
+    max-width: 1440px;
+}
+footer h4{
+
+width: 2000px;
+text-align: left;
+column-gap: 0px;
+    font-family: var(--font-family);
+font-weight: 600;
+font-size: 14px;
+line-height: 160%;
+letter-spacing: 0.04em;
+text-transform: uppercase;
+color: #000;
+}
+footer p{
+font-family: var(--font-family);
+font-weight: 400;
+font-size: 20px;
+text-align: left;
+line-height: 160%;
+color: #000;
+}
